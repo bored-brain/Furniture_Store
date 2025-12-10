@@ -33,7 +33,7 @@ header{
 .navbar ul{
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: top;
   align-items: center;
   gap: 70px;
 }
@@ -142,13 +142,12 @@ header{
   display: none;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 35px;
-  padding-left: 20px;
-  height: 35vh;
-  background-color: rgba(0,0,0,0.9);
-  gap: 15px;
-  width:30%;
-  position: absolute; 
+  padding: 84px 20px 20px 20px;
+  height: 100vh;
+  background: #fff;
+  gap: 30px;
+  width:280px;
+  position: fixed; 
   top: 0;
   right: 0;
   z-index: 20;
@@ -160,7 +159,7 @@ header{
  }
  .navbar ul i{
   display: block;
-  color: white;
+  color: black;
   
   
   
@@ -174,17 +173,19 @@ header{
   margin-left: 0px;
   border-radius: 10px;
   border:none;
-  color:  rgb(31, 30, 30);
-  background-color: rgb(207, 201, 201);
+  color:  white;
+  background-color: black;
   transition: all 0.3s ease;
 
 }
 .navbar ul li>button:hover{
-  background-color: #76441b;
-  color: rgb(239, 231, 231);
+  background-color: rgb(40, 39, 39);
+  color: rgb(231, 230, 230);
 }
 .navbar ul li>a{
-  color: white;
+  color: black;
+  
+
 }
 .navbar ul li>a:hover{
   color: rgb(214, 209, 209);
