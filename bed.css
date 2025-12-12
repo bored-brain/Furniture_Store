@@ -1,15 +1,13 @@
-/* ---------- RESET ---------- */
-  * { box-sizing: border-box; margin: 0; padding: 0; font-family: Poppins, Pretendard Variable;}
+   * { box-sizing: border-box; margin: 0; padding: 0; font-family: Poppins, Pretendard Variable;}
   html,body { height: 100%; font-family: "Poppins", system-ui, sans-serif; }
 
-  /* ---------- NAVBAR WRAPPER ---------- */
-  .navbar {
+   .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: #ffffff;                     /* white background */
-    padding: 16px 72px;                      /* desktop padding */
+    background: #ffffff;                     
+    padding: 16px 72px;                      
     display: flex;
     align-items: center;
     gap: 24px;
@@ -19,30 +17,28 @@
     
   }
 
-  /* ensure no other rules override */
-  .navbar, .navbar * { -webkit-font-smoothing:antialiased; }
+   .navbar, .navbar * { -webkit-font-smoothing:antialiased; }
 
-  /* ---------- LOGO ---------- */
-  .navbar > img {
-    height: 100px;                            /* logo height */
+   .navbar > img {
+    height: 100px;                            
     width: 100px;
     scale: 1.5;
     display: block;
-    border-radius: 50%;             /* override any previous border-radius */
+    border-radius: 50%;             
     background: transparent;
     object-fit: contain;
   }
 
-  /* If logo is inside some wrapper remove unwanted styles */
+
   .navbar img[style] { border-radius: 0 !important; }
 
-  /* ---------- MENU (right) ---------- */
+
   .item {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 42px;                               /* spacing between links */
-    margin-left: auto;                       /* push items to right */
+    gap: 42px;                              
+    margin-left: auto;                      
     padding-left: 0;
   }
 
@@ -51,27 +47,27 @@
   .item li a {
     text-decoration: none;
     color: #222;
-    font-size: 1.6rem;                         /* readable size */
+    font-size: 1.6rem;                         
     font-weight: 400;
     letter-spacing: 0.2px;
     transition: color .18s ease;
   }
   .item li a:hover { color: #000; }
 
-  /* ---------- SIGNUP BUTTON ---------- */
+  
   .navbar_btn button {
     background: #161414;
     color: #fff;
     border: none;
     padding: 8px 18px;
-    border-radius: 6px;                     /* pill shape like screenshot */
+    border-radius: 6px;                    
     font-size: 1.6rem;
     cursor: pointer;
     box-shadow: 0 1px 0 rgba(255,255,255,0.02) inset;
   }
   .navbar_btn button:hover { background:#303030; }
 
-  /* ---------- MOBILE / SMALL SCREEN ---------- */
+
   .menu_btn {
     display: none;
     margin-left: auto;
@@ -170,7 +166,7 @@ section#product-navbar.active{
   display: flex;
 }
 
-  /* mobile menu (slide-in panel) */
+
   @media (max-width: 900px) {
     .navbar { padding: 14px 20px; }
     
@@ -203,31 +199,30 @@ section#product-navbar.active{
     
     .menu_btn { display: block; color: #222; }
     
-    /* hide inline desktop menu links visually when closed */
+  
     .item li a { font-size: 18px; color: #222; }
     .navbar_btn button { width: auto; font-size: 16px; padding: 8px 22px; border-radius: 14px; }
   }
-  
-  /* ---------- SAFEGUARD: prevent overflow ---------- */
+
   .navbar,
   .navbar * {
     max-width: 100vw;
   }
   
-  /* Optional: add a small page body so you can see navbar overlay */
+
   main { padding-top: 110px; min-height: 200vh; }
 
 
 
 
 
-  /*------------------ MAIN CONTENT ----------------*/
+
   main>div.cards{
     display: flex;
-    /* grid-template-columns:repeat(4,1fr); */
+  
     gap: 40px;
     flex-wrap: wrap;
-    /* border: 2px solid red; */
+
     width: 95vw;
     justify-content: center;
    padding-bottom: 25px;
