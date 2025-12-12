@@ -140,6 +140,14 @@
     justify-content: center;
     padding-bottom: 25px;
   }
+.cards>div:hover{
+    scale: 1.05;
+    
+  }
+  .cards>div{
+    transition: all 0.3s ease;
+   
+  }
  
   main{
     padding-left: 50px;
@@ -187,4 +195,7 @@ main>div>p{
 main>div>h1{
     font-size: 50px;
     font-weight: 400;
+}
+.about{
+    height: 200px;
 }

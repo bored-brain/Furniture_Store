@@ -109,6 +109,14 @@
       cursor: pointer;
       color: #222;
     }
+    /* .cards>div>div:hover{
+    scale: 1.05;
+    
+  }
+  .cards>div>div{
+    transition: all 0.3s ease;
+   
+  } */
     
     .menu_btn { display: block; color: #222; }
     
