@@ -58,8 +58,9 @@ Furniture_Store/
 ## ▶️ How to Run the Project
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/Parth-co79/Furniture_Store.git
+   ```
 2.Open the project folder.
 
 3.Double-click index.html to open in browser.
@@ -79,9 +80,11 @@ Dark/light theme support
 Product animations & hover effects
 
 👥 Contributors
+```
 Himanshu Parmarthi
 Parth Kadukar
 Sushant Gupta
+```
 
 📄 License
 
