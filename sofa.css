@@ -187,6 +187,7 @@
 main>div.about{
     width: 80vw;
     margin: 50px 20px;
+    height: auto;
 
 }
 main>div>p{
